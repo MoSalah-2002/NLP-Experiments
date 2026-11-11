@@ -1,67 +1,27 @@
-<div align="center">
+# Core scientific stack
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
 
-# 🧠 NLP Experiments Lab
+# NLP
+nltk
+gensim
+spacy
+transformers
+datasets
+tokenizers
+accelerate
+sentence-transformers
 
-### From text preprocessing to modern Transformer-based language tasks
+# Deep learning backends used by selected notebooks
+torch
+tensorflow
+keras
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![NLP](https://img.shields.io/badge/Focus-NLP-8A2BE2?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Learning%20%26%20Experiments-20B486?style=for-the-badge)
-
-**A curated collection of hands-on NLP notebooks** covering classical text processing, embeddings, semantic search, sequence models, and Transformers.
-
-</div>
-
----
-
-## ✨ What you'll find
-
-| Area | Experiments |
-|---|---|
-| 🧹 Text processing | Cleaning, tokenization, text exploration, and linguistic preprocessing |
-| 🔤 Word representations | Word2Vec, FastText, TF-IDF, and embedding experiments |
-| 🔎 Semantic retrieval | Hadith text representation and similarity-search experiments |
-| 🤗 Transformers | Hugging Face pipelines and Transformer-based Named Entity Recognition |
-| 🌍 Sequence learning | Arabic–English and character-level sequence-to-sequence experiments |
-| 💬 Text datasets | Exploratory work with conversational text datasets |
-
-## 📁 Repository structure
-
-```text
-NLP-Experiments/
-├── notebooks/
-│   ├── Hadith-Text-Preprocessing-and-Word-Embeddings.ipynb
-│   ├── Hadith-Semantic-Search-Exploration.ipynb
-│   ├── Text-Analysis-and-NLP-Pipeline.ipynb
-│   ├── Hugging-Face-Transformers-Experiments.ipynb
-│   ├── Transformer-Based-Named-Entity-Recognition.ipynb
-│   └── ...
-├── README.md
-└── requirements.txt
-```
-
-## 🚀 Getting started
-
-```bash
-git clone https://github.com/MoSalah-2002/NLP-Experiments.git
-cd NLP-Experiments
-python -m venv .venv
-# Activate the environment, then:
-pip install -r requirements.txt
-```
-
-Open any notebook with Jupyter or Google Colab. Some notebooks expect datasets or model files that are not included; update their paths before running.
-
-## 🔐 Credentials & data safety
-
-Credentials found in the source notebooks have been removed and replaced with environment-variable references where applicable. Set your own keys locally (for example `HF_TOKEN` or `API_KEY`) and **never commit secrets**. Datasets are not redistributed in this repository.
-
-## ⚠️ Notes
-
-- This is an educational and experimental portfolio, not a single packaged NLP library.
-- Results depend on the dataset, preprocessing choices, model checkpoint, and runtime.
-- Notebooks are provided as research/learning artifacts; some cells may require adaptation to current library versions.
-
-## 👋 About
-
-Maintained by **Mohamed Salah** — Machine Learning & NLP Engineer (Junior).
+# Notebook tools
+jupyter
+ipykernel
+tqdm
